@@ -1,0 +1,29 @@
+.wrap {
+  min-height: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+
+  & > nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    & > li > a {
+      text-decoration: none;
+      color: black;
+      color: gray;
+      font-size: 20px;
+
+      &:global.active {
+        color: black;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+

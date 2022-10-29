@@ -1,0 +1,52 @@
+.wrap {
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+
+  & button {
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 1px 5px #999;
+    border: none;
+
+    outline: none;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    &:hover {
+      box-shadow: 0 0 1px 5px #666;
+    }
+
+    &:focus {
+      box-shadow: 0 0 1px 5px #333;
+    }
+
+    &.control {
+      background-color: #f41870;
+      box-shadow: 0 0 1px 5px #f41870;
+      color: white;
+
+      &:hover {
+        box-shadow: 0 0 1px 5px #666;
+      }
+
+      &:focus {
+        box-shadow: 0 0 1px 5px #333;
+      }
+
+    }
+  }
+}
+
+.centralBtns {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
